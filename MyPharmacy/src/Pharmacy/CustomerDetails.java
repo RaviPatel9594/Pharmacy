@@ -37,6 +37,7 @@ public class CustomerDetails extends javax.swing.JFrame {
         this.setSize((int)xsize*3/4 ,(int) ysize*3/4);
         customerData();
         conn = Home.conn;
+        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
     static Statement ps;
     static ResultSet rs;
